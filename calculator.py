@@ -1,4 +1,4 @@
-# Basic calculator program using Python functions
+# basic calculator program using python functions
 
 def addition(a1, b1):
     return a1+b1
@@ -27,11 +27,11 @@ c2 = float(input("enter your second number: "))
 
 if operation == 1:
     print(c1, "+", c2 ,"=", addition(c1, c2))
-elif operation == 1:
-    print(c1, "+", c2 ,"=", addition(c1, c2))
-elif operation == 1:
-    print(c1, "+", c2 ,"=", addition(c1, c2))
-elif operation == 1:
-    print(c1, "+", c2 ,"=", addition(c1, c2))
+elif operation == 2:
+    print(c1, "-", c2 ,"=", subtraction(c1, c2))
+elif operation == 3:
+    print(c1, "*", c2 ,"=", multiplication(c1, c2))
+elif operation == 4:
+    print(c1, "/", c2 ,"=", devision(c1, c2))
 else:
     print("Invalid number")
