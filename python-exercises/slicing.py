@@ -37,3 +37,20 @@ print(devops_list[:])  # print the whole list
 print(devops_list[2:3][0])  # accessing the first element of the sliced list
 print(devops_list[2:5][0][2:6])  # accessing a slice of the first element of the sliced list
 print(devops_list[2:5][0][2:6][-1]) # accessing the last character of the sliced string
+
+# dictionary slicing
+print("================")
+print("dictionary slicing")
+devops_dict = {
+    "dev": "developer",
+    "python": "programming language",
+    "java": "programming language",
+    "devops":("dev", "cloudops", "docker", "java","ansible")
+}
+print(devops_dict["dev"])
+print(devops_dict["devops"][-1][:5])  # accessing the last element of the tuple and slicing it the key "devops"
+print(devops_dict["python"])
+print(devops_dict["java"])
+print(devops_dict["dev"][:2])  # slicing the value of the key "dev"
+print(devops_dict["python"][:6])  # slicing the value of the key "python"
+print(devops_dict["java"][:4])  # slicing the value of
